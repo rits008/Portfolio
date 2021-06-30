@@ -7,7 +7,7 @@ import "./app.scss";
 import { useState } from "react";
 
 function App() {
- const[menuOpen,setmenuOpen] = useState(true);
+ const[menuOpen,setmenuOpen] = useState(false);
 
   return (
     <div className="App">
