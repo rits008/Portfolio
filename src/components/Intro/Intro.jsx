@@ -2,7 +2,8 @@ import React from 'react'
 import { init } from "ityped"
 import { useEffect, useRef } from "react";
 import "./intro.scss";
-
+import ritik from "../../Assets/ritik.png"
+import down from "../../Assets/down.svg"
 export default function Intro() {
 
     const textRef = useRef();
@@ -20,7 +21,7 @@ export default function Intro() {
         <div className="intro" id="intro">
             <div className="left">
         <div className="imgContainer">
-          <img src="assets/ritik.png" alt="" />
+          <img src={ritik} alt="" />
         </div>
       </div>
       <div className="right">
@@ -32,7 +33,7 @@ export default function Intro() {
           </h3>
         </div>
         <a href="#portfolio">
-          <img src="assets/down.png" alt="" />
+          <img src={down} alt="" />
         </a>
       </div>
         </div>
